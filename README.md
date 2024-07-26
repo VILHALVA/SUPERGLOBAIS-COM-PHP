@@ -1,5 +1,5 @@
 # SUPERGLOBAIS COM PHP
-👨‍🏫PROJETO CRIADO PARA O CURSO DE PHP.
+👨‍🏫PROJETO CRIADO PARA O CURSO DE PHP DO CURSO EM VIDEO.
 
 <img src="./IMAGENS/FOTO_1.png" align="center" width="500"> <br>
 <img src="./IMAGENS/FOTO_2.png" align="center" width="500"> <br>
