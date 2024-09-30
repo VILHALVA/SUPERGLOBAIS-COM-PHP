@@ -8,16 +8,23 @@
 O projeto consiste em duas páginas HTML que interagem com o PHP para demonstrar o uso das superglobais em PHP, como `$_GET`, `$_POST`, `$_REQUEST`, `$_COOKIE`, `$_SESSION`, `$_ENV`, `$_SERVER` e `$GLOBALS`.
 
 ## EXECUTANDO O PROJETO:
-1. **Executando o Aplicativo:**
+1. **Executando o Aplicativo com Apache:**
    - Coloque os arquivos em um servidor web compatível com PHP (por exemplo, XAMPP, WAMP, LAMP).
-   - Acesse o formulário no navegador visitando `http://localhost/CODIGO/index.html`.
+   - Acesse o formulário no navegador visitando [http://localhost/CODIGO/index.html](http://localhost/CODIGO/index.html).
 
-2. **Interagir com o Projeto:**
-   1. **Página de Login (`index.php`):**
+2. **Executando o Aplicativo com `php.exe`:**
+   - Alternativamente, você pode iniciar o servidor diretamente no diretório `./CODIGO` com o comando abaixo:
+   ```bash
+   php -S localhost:8080
+   ```
+   - Em seguida, acesse o formulário no navegador através do endereço: [http://localhost:8080/index.html](http://localhost:8080/index.html).
+
+3. **Interagir com o Projeto:**
+   1. **Página de Login (`index.html`):**
    
       Esta página contém um formulário de login onde o usuário pode inserir seu nome de usuário e senha. Para usar:
       
-      - Abra o arquivo `index.php` em um navegador da web.
+      - Abra o arquivo `index.html` em um navegador da web.
       - Insira o nome de usuário e senha nos campos correspondentes.
       - Clique no botão "Entrar".
       
